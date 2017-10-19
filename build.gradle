@@ -1,0 +1,15 @@
+group 'Samples'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.projectreactor:reactor-core:3.0.7.RELEASE'
+
+}
